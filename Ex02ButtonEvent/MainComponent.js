@@ -49,7 +49,7 @@ class MainComponent extends Component{
         //1. Component
         //2. state : RN 에서는 모든 멤버변수가 화면갱신에 영향을 주는 것은 아님. 특별한 변수인 State를 사용해야함! (아래 샘플)
             //--> Ex03TextInput 예제 참고
-        //3. props
+        //3. props --> EX06CustomComponent 참고
     }
 
     // ** 컴포넌트에 보여줄 데이터를 가진 변수들은 지역성을 띄면 안됨! 멤버변수(==프로퍼티)로 만들 것!
