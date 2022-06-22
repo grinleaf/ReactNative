@@ -6,6 +6,7 @@ const InputComponent= (props)=>{    //전달된 속성을 파라미터로 전달
     return(
         <View style={style.container}>
             <TextInput
+                onChangeText={props.onChangeText}
                 selectionColor='#292929'    //블럭처리 시 블럭 색상
                 autoCapitalize='none'       //첫글자 대소문자 설정
                 allowFontScaling= {false}   //폰트 축적 설정
